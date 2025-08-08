@@ -685,7 +685,7 @@
                 text: `≪アンケート≫\n【ご来店日】\n・${formData.message}\n\n【ご職業】\n・${formData.priorityCount}\n\n【来店動機】\n・${formData.demandCount}\n\n【来店頻度】\n・${formData.chanceCount}`
             }]).then(() => {
                 /* メッセージ送信成功時の処理 */
-                alert('ご記入ありがとうございます。同意書が表示されますので、ご確認ください。');
+                alert('ご記入ありがとうございます。');
                 /* LIFFウィンドウを閉じる */
                 liff.closeWindow();
             }).catch((err) => {
